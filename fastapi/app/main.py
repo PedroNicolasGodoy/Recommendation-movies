@@ -295,8 +295,3 @@ def get_recommendations(title: str, top_n: int = 5) -> List[Dict[str, str]]:
 
     # Convertir el resultado en una lista de diccionarios
     return recommendations.to_dict(orient='records')
-
-# Ruta de prueba
-@app.get("/")
-def root():
-    return {"message": "Bienvenido al sistema de recomendación de películas. Usa /recommendations/?title=<TITULO> para obtener recomendaciones."}
