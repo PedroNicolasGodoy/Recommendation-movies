@@ -30,13 +30,14 @@ M-Pindividual/
 │    ├── app/
 │         ├── __init__.py
 │         └── main.py
-│   ├── Scripts/
+│    ├── Scripts/
 │         └── convert_csv_to_sqlite.py
 ├── data/
-│   └── database.db
-│    ├── requirements.txt
-│    ├── transformacion.py
+│    └── database.db
+├── requirements.txt
+├── transformacion.py
 └── README.md
+
 ```
 
 - **main.py**: Archivo principal con la lógica de la API.
