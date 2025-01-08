@@ -34,8 +34,8 @@ M-Pindividual/
 │         └── convert_csv_to_sqlite.py
 ├── data/
 │   └── database.db
-├── requirements.txt
-├── transformacion.py
+│    ├── requirements.txt
+│    ├── transformacion.py
 └── README.md
 ```
 
